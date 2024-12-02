@@ -1,0 +1,19 @@
+{
+  "name": "stamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node test.ts"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.15.1",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
